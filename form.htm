@@ -1,0 +1,257 @@
+<html><head><title>Im@le Design - Contacto</title>
+<!--BEGIN META TAGS-->
+<META NAME="author" CONTENT="Imale design">
+<META NAME="publisher" CONTENT="Imale design">
+<META NAME="copyright" CONTENT="Imale design">
+<META NAME="owner" CONTENT="">
+<META NAME="description" CONTENT="Servicios Informáticos en Internet, Software y Hardware. - Boletines, trucos, libros digitales y manuales">
+<META NAME="keywords" CONTENT="Internet, servicios, boletines, artículos de informática, diseño web, diccionario.">
+<META NAME="keywords" CONTENT="Macromedia, Flash, Dreamweaver, cgi, formularios de registro, javascript.">
+<META NAME="keywords" CONTENT="Reparación de computadoras, venta de equipos, partes de pc, software, hardware, garantía">
+<META NAME="keywords" CONTENT="Partes de computadoras, reparación de pc, insumos, configuración.">
+<META NAME="keywords" CONTENT="Registro de dominios, alta en buscadores, venta de dominios, dominios .com.ar.">
+<META NAME="keywords" CONTENT="Libros digitales, manuales, boletín de actualidad, trucos, tips, tutoriales. ">
+<META NAME="rating" CONTENT="General">
+<META NAME="robots" CONTENT="index,follow,all">
+<meta name="expires"content="never">
+<META NAME="distribution" CONTENT="global">
+<META NAME="revisit-after" CONTENT="2 weeks">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta http-equiv="Content-Language" content="es">
+<META NAME="email" CONTENT=" ">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<!--END META TAGS-->
+<style type="text/css">
+BODY {SCROLLBAR-FACE-COLOR:#990000;
+      SCROLLBAR-HIGHLIGHT-COLOR:#000000;
+      SCROLLBAR-SHADOW-COLOR:#000000;
+      SCROLLBAR-3DLIGHT-COLOR:#990000;
+      SCROLLBAR-ARROW-COLOR:#FFFFFF;
+      SCROLLBAR-TRACK-COLOR:#000000;
+      SCROLLBAR-DARKSHADOW-COLOR:white
+}
+</style>
+</head>
+
+<body bgcolor="#990000">
+
+<SCRIPT LANGUAGE=JavaScript>
+function Valida(form){
+   if (form.realname.value == "") { 
+      alert("Por favor escriba su Nombre y Apellido.");
+      form.realname.focus();
+      return false;
+   }
+   if (form.email.value.indexOf("@")<3){
+       alert("La direccion e-mail no es valida. Por favor" 
+       +" introduzca una direccion que contenga el simbolo '@'.");
+       }
+       if ((form.email.value.indexOf(".com")<5)&&(form.email.value.indexOf(".org")<5)
+          &&(form.email.value.indexOf(".gov")<5)&&(form.email.value.indexOf(".net")<5)
+          &&(form.email.value.indexOf(".es")<5)
+          &&(form.email.value.indexOf(".mil")<5)&&(form.email.value.indexOf(".edu")<5)){
+          alert("La direccion e-mail no es valida."
+          +" La direccion e-mail debe contener un sufijo del tipo "
+          +".com, .net, .org, .gov, .mil, .es, .edu");
+          form.email.focus();
+          return false;
+   }
+   if (form.ciudad.value == "") { 
+      alert("Ingrese su Domicilio.");
+      form.domicilio.focus();
+      return false;
+   }
+   if (form.codigo.value == "") { 
+      alert("Ingrese su Código Postal");
+      form.codigo.focus();
+      return false;
+   }
+   if (form.provincia.value == "") { 
+      alert("Ingrese su Ciudad de Residencia.");
+      form.ciudad.focus();
+      return false;
+   }if (form.comentario.value == "") { 
+      alert("Debe explicar el motivo de su mail");
+      form.comentario.focus();
+      return false;
+   }
+   alert("Datos Completos, se procederá al envio del correo."+
+          " Nos comunicaremos con Ud. a la Brevedad");
+      form.submit(); 
+}	
+</SCRIPT>
+<!--webbot BOT="GeneratedScript" PREVIEW=" " startspan --><script Language="JavaScript" Type="text/javascript"><!--
+function FrontPage_Form1_Validator(theForm)
+{
+
+  var checkOK = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz&#402;&#352;&#338;&#381;&#353;&#339;&#382;&#376;ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ";
+  var checkStr = theForm.realname.value;
+  var allValid = true;
+  var validGroups = true;
+  for (i = 0;  i < checkStr.length;  i++)
+  {
+    ch = checkStr.charAt(i);
+    for (j = 0;  j < checkOK.length;  j++)
+      if (ch == checkOK.charAt(j))
+        break;
+    if (j == checkOK.length)
+    {
+      allValid = false;
+      break;
+    }
+  }
+  if (!allValid)
+  {
+    alert("Escriba sólo letra caracteres en el campo \"nombre\".");
+    theForm.realname.focus();
+    return (false);
+  }
+  return (true);
+}
+//--></script><!--webbot BOT="GeneratedScript" endspan --><form action="/cgi-bin/FormMail.cgi" method="POST" style="text-align: left; position:center" onsubmit="return FrontPage_Form1_Validator(this)" language="JavaScript" name="FrontPage_Form1">
+    <font face="Comic Sans MS">
+    <input type="hidden" name="recipient" value="servicios@imaledesign.com.ar,'email'">
+    <input type="hidden" name="subject" value="Informacion">
+    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT">
+    <input type="hidden" name="redirect" value="http://www.imaledesign.com.ar/gracias.htm"> 
+
+	</font> 
+
+	<div align="center">
+    <font face="Comic Sans MS">
+		<table border="1" id="table1" bordercolor="#800000" cellspacing="1">
+			<tr>
+				<td colspan="4" align="center">
+				<p align="center">
+				<font face="Arial" color="#FFFFFF" size="2">
+				Nombres y Apellidos</font></td>
+			</tr>
+			</font>
+    <font face="Goudy Stout">
+			<tr>
+				<td colspan="4" align="center">
+				<p align="center">
+	<font color="#FFFFFF" face="Arial">
+				&nbsp;</font></font><font color="#FFFFFF" face="Comic Sans MS"><!--webbot bot="Validation" s-display-name="nombre" s-data-type="String" b-allow-letters="TRUE" --><input name="realname" size="35" style="font-family: Arial; "></font></td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center">
+				<p align="center">
+				<font face="Arial" color="#FFFFFF" size="2">
+				Dirección de e-mail</font></td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center">
+	<font color="#FFFFFF" face="Comic Sans MS">
+	<input name="email" size="35" style="font-family: Arial; "></font></td>
+			</tr>
+			<tr>
+				<td align="center">
+				<p align="center">
+	<font face="Arial" color="#FFFFFF" size="2">Ciudad</font></td>
+				<td align="center">
+				<p align="center">
+	<font face="Arial" color="#FFFFFF" size="2">Código Postal</font></td>
+				<td align="center" colspan="2">
+				<p style="margin-top: 0; margin-bottom: 0">
+	<font face="Arial" color="#FFFFFF" size="2">Teléfono</font></td>
+			</tr>
+			<tr>
+				<td align="center">
+				<p align="center">
+	<font color="#FFFFFF" face="Comic Sans MS">
+				<input name="ciudad" size="20" style="font-family: Arial; "></font></td>
+				<td align="center">
+				<p align="center">
+	<font color="#FFFFFF" face="Comic Sans MS">
+	<input name="codigo" size="8" style="font-family: Arial; "></font></td>
+				<td align="center" colspan="2">
+	<font color="#FFFFFF" face="Comic Sans MS">
+	<input name="telefono" size="15" style="font-family: Arial; "></font></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">
+				<p align="center" style="margin-top: 0; margin-bottom: 0">
+	<font face="Arial" color="#FFFFFF" size="2">Provincia o Estado o Distrito</font></td>
+				<td align="center">
+				<p align="center">
+	<font face="Arial" color="#FFFFFF" size="2">País de residencia</font></td>
+			</tr>
+			<tr>
+				<td colspan="3" align="center">
+	<font color="#FFFFFF" face="Comic Sans MS">
+				<input name="provincia" size="20" style="font-family: Arial; "></font></td>
+				<td align="center">
+	<font face="Arial" color="#FFFFFF">
+	<select size="1" name="pais">
+	<option>Alemania</option>
+	<option selected>Argentina</option>
+	<option>Bélgica</option>
+	<option>Australia</option>
+	<option>Bélice</option>
+	<option>Bolivia</option>
+	<option>Brasil</option>
+	<option>Canadá</option>
+	<option>Chile</option>
+	<option>Colombia</option>
+	<option>Costa Rica</option>
+	<option>Cuba</option>
+	<option>Ecuador</option>
+	<option>El Salvador</option>
+	<option>España</option>
+	<option>Francia</option>
+	<option>Guatemala</option>
+	<option>Haití</option>
+	<option>Holanda</option>
+	<option>Honduras</option>
+	<option>Israel</option>
+	<option>Italia</option>
+	<option>Japón</option>
+	<option>México</option>
+	<option>Nicaragua</option>
+	<option>Panamá</option>
+	<option>Paraguay</option>
+	<option>Perú</option>
+	<option>Portugal</option>
+	<option>Puerto Rico</option>
+	<option>Reino Unido</option>
+	<option>Rep. Dominicana</option>
+	<option>Uruguay</option>
+	<option>Usa</option>
+	<option>Venezuela</option>
+	</select></font></td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center">
+				<p align="center">
+	<font face="Arial" color="#FFFFFF" size="2">Introduzca sus comentarios:
+	</font></td>
+			</tr>
+			<tr>
+				<td colspan="4" align="center">
+				<p align="center">
+	<font color="#FFFFFF" face="Comic Sans MS">
+	<textarea name="comentario" rows="4" cols="50" style="font-family: Arial; "></textarea></font></td>
+			</tr>
+		</table>
+	</div>
+	<p style="text-align: center; margin-top: 5px; margin-bottom: 0">
+	<font color="#FFFFFF" face="Comic Sans MS">
+	<input type="button" name="send" value="Enviar" style="font-family: Arial; font-weight: bold" onclick="Valida(this.form)"></font><font face="Arial" color="#FFFFFF"></a></a>
+	</font>
+	<font color="#FFFFFF" face="Comic Sans MS">
+	<input type="reset" value="Limpiar" name="clear" style="font-family: Arial; font-weight: bold"></font></p>
+	<font face="Arial">
+	<input type="hidden" name="recipient" value="servicios@imaledesign.com.ar,'email'">
+	<input type="hidden" name="subject" value="Información">
+    <input type="hidden" name="env_report" value="REMOTE_HOST,REMOTE_ADDR,HTTP_USER_AGENT">
+	<input type="hidden" name="redirect" value="http://www.imaledesign.com.ar/gracias.htm">
+	</font>
+</form>
+    </font>
+    <font face="Arial">
+		<p style="margin-top: 0; margin-bottom: 0" align="center"><font color="#FFFFFF">
+		Al completar el registro recibirá un email de confirmación.</font></p>
+</body></html>
